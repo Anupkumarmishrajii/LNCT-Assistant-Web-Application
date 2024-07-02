@@ -1,0 +1,334 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebLNCTAssistant</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebLNCTAssistant.styles.css" asp-append-version="true" />
+
+@*     from footer side
+ *@  
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</head>
+<body>
+    <!---------- Main Menu HTML Starts --------->
+    <nav>
+        <div class="container">
+            <img src="https://www.admissionindia.net/uploads/colleges/31/logo-1.png" style="height:40px"  />
+            <a asp-area="Aboutus" asp-controller="Aboutus" asp-action="Aboutus">About us</a>
+            <div class="dropdown">
+                <a asp-area="" asp-controller="" asp-action="">Colleges</a>
+                <div class="dropdown-content">
+                    <a asp-area="Colleges" asp-controller="Colleges" asp-action="LNCTM"> LNCTM </a>
+                    <a asp-area="Colleges" asp-controller="Colleges" asp-action="LNCTS"> LNCTS </a>
+                    <a asp-area="Colleges" asp-controller="Colleges" asp-action="LNCTE"> LNCTE </a>
+                </div>
+            </div>
+            <a asp-area="Facilties" asp-controller="Facilties" asp-action="Facilties">Facilties</a>
+            <a asp-area="Placements" asp-controller="Placements" asp-action="Placements">Placements</a>
+            <a asp-area="ExtraCariculam" asp-controller="ExtraCariculam" asp-action="ExtraCariculam">Extra Caricular</a>
+            <div class="dropdown">
+                <a asp-area="" asp-controller="" asp-action="">Menu</a>
+                <div class="dropdown-content">
+                    <a asp-area="Users" asp-controller="Users" asp-action="CreateUser">Register</a>
+                    <a asp-area="Admission" asp-controller="Admission" asp-action="CreateAdmission">Admission</a>
+                    <a asp-area="Users" asp-controller="Users" asp-action="CreateUser">Contact us</a>
+                    <a asp-area="FeedBack" asp-controller="FeedBack" asp-action="CreateFeedBack">Feed Back</a>
+                    <a asp-area="AdminUsers" asp-controller="AdminUsers" asp-action="Login">Only Admin</a>
+                    <a asp-area="Students" asp-controller="Students" asp-action="StudentLogin">Only Collegians</a>
+                    <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </div>
+            </div>           
+        </div>
+    </nav>
+    <!---------- Main Menu HTML Ends --------->
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+
+
+    
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+ 
+    <!---------- Footer HTML Starts --------->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-sect">
+                <p class="mb-4">
+                    Lakshmi Narain College of Technology College in Madhya Pradesh: "WORKING TOWARDS BEING THE BEST”.
+                </p>
+                <h2>Best Institute For Education</h2>
+                <img src="https://getmyuni.azureedge.net/college-images-test/lakshmi-narain-college-of-technology-lnct-bhopal/e2f71b032ba044fca0910eb792dfd8eb.jpeg" style="height:130px" />
+            </div>
+            <div class="footer-sect mt-5">
+                <h2>Quick Links</h2>
+                <ul class="footer-menu">
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index"> > Home</a></li>
+                    <li><a asp-area="Aboutus" asp-controller="Aboutus" asp-action="Aboutus"> > About us</a></li>
+                    <li><a asp-area="Facilties" asp-controller="Facilties" asp-action="Facilties"> > Facilties</a></li>
+                    <li><a asp-area="Placements" asp-controller="Placements" asp-action="Placements"> > Placements</a></li>
+                </ul>
+            </div>
+            <div class="footer-sect mt-5">
+                <h2>Contact Info</h2>
+                <ul class="footer-contact">
+                    <li><b>Email :</b> mishra12122000@gmail.com </li>
+                    <li><b>Call :</b> +91 -914 276 503 5 </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+  
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
+
+<style>
+    /**** Common CSS Starts ****/
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html, body {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+        color: #242424;
+    }
+
+    .container {
+        width: 1200px;
+        margin: 0px auto;
+    }
+
+    .main-section {
+        width: 100%;
+        float: left;
+        padding: 50px 0px 40px 0px;
+    }
+
+    .heading {
+        font-size: 22px;
+        font-weight: 500;
+        border-bottom: 1px solid #6F4E37;
+        margin-bottom: 25px;
+        color: #6F4E37;
+    }
+    /**** Common CSS Ends ****/
+    /**** Logo CSS Starts ****/
+    .logo {
+        width: 100%;
+    }
+    /**** Logo CSS Ends ****/
+    /**** Main Menu CSS Starts ****/
+    nav {
+        width: 100%;
+        float: left;
+        background: #6F4E37;
+        padding: 15px 0px;
+    }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 17px;
+            border-right: 1px solid #ffc3c3;
+            padding: 2px 20px;
+        }
+    /**** Main Menu CSS Ends ****/
+    /**** Slider CSS Starts ****/
+    .slider img {
+        width: 100%;
+    }
+    /**** Slider CSS Ends ****/
+    /**** News, Event, Notice Board CSS Starts ****/
+    .event {
+        width: 31%;
+        margin-right: 1%;
+        float: left;
+    }
+
+        .event div {
+            padding: 10px;
+            background-color: #f0f3fa;
+        }
+
+        .event ul li {
+            margin-bottom: 20px;
+            width: 100%;
+            float: left;
+        }
+    /**** News, Event, Notice Board CSS Ends ****/
+    /**** About Us CSS Starts ****/
+    .about-us img {
+        width: 24%;
+        float: left;
+    }
+
+    .about-us div {
+        width: 70%;
+        margin-left: 20px;
+        float: left;
+        line-height: 35px;
+    }
+    /**** About Us CSS Ends ****/
+    /**** Testimonial CSS Starts ****/
+    .testimonial {
+        width: 380px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    .testimonial-text {
+        background: #f0f3fa;
+        padding: 20px;
+        line-height: 35px;
+        border-radius: 10px;
+    }
+
+    .testimonial-detail {
+        float: left;
+        margin-top: 10px;
+    }
+
+    .testimonial-img {
+        float: left;
+    }
+
+        .testimonial-img img {
+            border-radius: 50%;
+        }
+
+    .testimonial-name {
+        margin-left: 10px;
+        float: left;
+    }
+
+        .testimonial-name h5 {
+            font-size: 18px;
+            margin-top: 8px;
+        }
+    /**** Testimonial CSS Ends ****/
+    /**** Gallery CSS Starts ****/
+    .gallery img {
+        width: 24%;
+    }
+    /**** Gallery CSS Ends ****/
+    /**** Placement CSS Starts ****/
+    .placement img {
+        border: 1px solid #dfdfdf;
+    }
+    /**** Placement CSS Ends ****/
+
+
+
+
+
+
+
+
+
+    .footer {
+        background-color: #1f2836;
+        padding: 15px 0; /* Further reduced padding */
+        width: 100%;
+        float: left;
+    }
+
+    .footer-sect {
+        width: 33%;
+        float: left;
+    }
+
+        .footer-sect h2 {
+            color: #fff;
+            margin-bottom: 3px; /* Further reduced margin */
+        }
+
+        .footer-sect p {
+            color: #fff;
+            line-height: 1.1; /* Further reduced line-height */
+            padding: 0 30px 1px 0; /* Further reduced padding */
+        }
+
+    .footer-menu li {
+        width: 50%;
+        float: left;
+        margin-bottom: 1px; /* Further reduced margin */
+    }
+
+        .footer-menu li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+    .footer-contact li {
+        margin-bottom: 2px; /* Further reduced margin */
+        list-style: none;
+        color: #fff;
+    }
+
+</style>
+
+
+
+
+@* dropdown at navigation bar... *@
+<style>
+    /* Dropdown container */
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown links */
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: antiquewhite;
+        min-width: 160px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+            /* Change color of dropdown links on hover */
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+</style>

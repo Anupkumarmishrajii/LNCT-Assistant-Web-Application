@@ -1,0 +1,105 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <!-- Add CSS for modal -->
+    <style>
+        /* Modal styles */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+        }
+
+        /* Modal content */
+        .modal-content {
+            background-color: antiquewhite;
+            margin: 5% auto; /* 5% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 50%; /* Could be more or less, depending on screen size */
+            text-align: center;
+            border-radius: 10px; /* Rounded corners */
+            position: relative; /* To allow absolute positioning of tick */
+        }
+
+        /* Close button */
+        .close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+
+        /* Green tick */
+        .tick {
+            color: #4CAF50; /* Green */
+            font-size: 100px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="card mt-5" style="background-color:antiquewhite">
+                <div class="card-header">
+                    <img src="https://www.admissionindia.net/uploads/colleges/31/logo-1.png" style="height:70px" />
+                </div>
+                <div class="card-body">
+                    <span class="close">&times;</span>
+                    <div class="tick">&#10004;</div>
+                    <h1 class="display-1">Success!</h1>
+                    <div class="row">
+                        <div class="col-1 offset-5">
+                            <a asp-area="AdminUsers" asp-controller="AdminUsers" asp-action="DashBoard" class="btn btn-info" type="button">OK..!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript to handle modal -->
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the page loads, show the modal
+        window.onload = function () {
+            modal.style.display = "block";
+        };
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+            redirectToHomePage();
+        };
+
+        // Redirect to home page after clicking "OK" or closing modal
+        function redirectToHomePage() {
+            window.location.href = '/'; // Change this to the URL of your home page
+        }
+    </script>
+</body>
+</html>
+
