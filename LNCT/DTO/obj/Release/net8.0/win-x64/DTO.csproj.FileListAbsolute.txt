@@ -1,0 +1,12 @@
+D:\Development\Projects\LNCT\LNCT\DTO\bin\Release\net8.0\win-x64\DTO.deps.json
+D:\Development\Projects\LNCT\LNCT\DTO\bin\Release\net8.0\win-x64\DTO.dll
+D:\Development\Projects\LNCT\LNCT\DTO\bin\Release\net8.0\win-x64\DTO.pdb
+D:\Development\Projects\LNCT\LNCT\DTO\obj\Release\net8.0\win-x64\DTO.csproj.AssemblyReference.cache
+D:\Development\Projects\LNCT\LNCT\DTO\obj\Release\net8.0\win-x64\DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Projects\LNCT\LNCT\DTO\obj\Release\net8.0\win-x64\DTO.AssemblyInfoInputs.cache
+D:\Development\Projects\LNCT\LNCT\DTO\obj\Release\net8.0\win-x64\DTO.AssemblyInfo.cs
+D:\Development\Projects\LNCT\LNCT\DTO\obj\Release\net8.0\win-x64\DTO.csproj.CoreCompileInputs.cache
+D:\Development\Projects\LNCT\LNCT\DTO\obj\Release\net8.0\win-x64\DTO.dll
+D:\Development\Projects\LNCT\LNCT\DTO\obj\Release\net8.0\win-x64\refint\DTO.dll
+D:\Development\Projects\LNCT\LNCT\DTO\obj\Release\net8.0\win-x64\DTO.pdb
+D:\Development\Projects\LNCT\LNCT\DTO\obj\Release\net8.0\win-x64\ref\DTO.dll

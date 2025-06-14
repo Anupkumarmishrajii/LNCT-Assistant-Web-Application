@@ -1,0 +1,15 @@
+D:\Development\Projects\LNCT\LNCT\DAL\bin\Release\net8.0\win-x64\DAL.deps.json
+D:\Development\Projects\LNCT\LNCT\DAL\bin\Release\net8.0\win-x64\DAL.dll
+D:\Development\Projects\LNCT\LNCT\DAL\bin\Release\net8.0\win-x64\DAL.pdb
+D:\Development\Projects\LNCT\LNCT\DAL\bin\Release\net8.0\win-x64\DTO.dll
+D:\Development\Projects\LNCT\LNCT\DAL\bin\Release\net8.0\win-x64\DTO.pdb
+D:\Development\Projects\LNCT\LNCT\DAL\obj\Release\net8.0\win-x64\DAL.csproj.AssemblyReference.cache
+D:\Development\Projects\LNCT\LNCT\DAL\obj\Release\net8.0\win-x64\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Projects\LNCT\LNCT\DAL\obj\Release\net8.0\win-x64\DAL.AssemblyInfoInputs.cache
+D:\Development\Projects\LNCT\LNCT\DAL\obj\Release\net8.0\win-x64\DAL.AssemblyInfo.cs
+D:\Development\Projects\LNCT\LNCT\DAL\obj\Release\net8.0\win-x64\DAL.csproj.CoreCompileInputs.cache
+D:\Development\Projects\LNCT\LNCT\DAL\obj\Release\net8.0\win-x64\DAL.csproj.Up2Date
+D:\Development\Projects\LNCT\LNCT\DAL\obj\Release\net8.0\win-x64\DAL.dll
+D:\Development\Projects\LNCT\LNCT\DAL\obj\Release\net8.0\win-x64\refint\DAL.dll
+D:\Development\Projects\LNCT\LNCT\DAL\obj\Release\net8.0\win-x64\DAL.pdb
+D:\Development\Projects\LNCT\LNCT\DAL\obj\Release\net8.0\win-x64\ref\DAL.dll

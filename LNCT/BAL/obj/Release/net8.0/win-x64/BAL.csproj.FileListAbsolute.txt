@@ -1,0 +1,17 @@
+D:\Development\Projects\LNCT\LNCT\BAL\bin\Release\net8.0\win-x64\BAL.deps.json
+D:\Development\Projects\LNCT\LNCT\BAL\bin\Release\net8.0\win-x64\BAL.dll
+D:\Development\Projects\LNCT\LNCT\BAL\bin\Release\net8.0\win-x64\BAL.pdb
+D:\Development\Projects\LNCT\LNCT\BAL\bin\Release\net8.0\win-x64\DAL.dll
+D:\Development\Projects\LNCT\LNCT\BAL\bin\Release\net8.0\win-x64\DTO.dll
+D:\Development\Projects\LNCT\LNCT\BAL\bin\Release\net8.0\win-x64\DAL.pdb
+D:\Development\Projects\LNCT\LNCT\BAL\bin\Release\net8.0\win-x64\DTO.pdb
+D:\Development\Projects\LNCT\LNCT\BAL\obj\Release\net8.0\win-x64\BAL.csproj.AssemblyReference.cache
+D:\Development\Projects\LNCT\LNCT\BAL\obj\Release\net8.0\win-x64\BAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Projects\LNCT\LNCT\BAL\obj\Release\net8.0\win-x64\BAL.AssemblyInfoInputs.cache
+D:\Development\Projects\LNCT\LNCT\BAL\obj\Release\net8.0\win-x64\BAL.AssemblyInfo.cs
+D:\Development\Projects\LNCT\LNCT\BAL\obj\Release\net8.0\win-x64\BAL.csproj.CoreCompileInputs.cache
+D:\Development\Projects\LNCT\LNCT\BAL\obj\Release\net8.0\win-x64\BAL.csproj.Up2Date
+D:\Development\Projects\LNCT\LNCT\BAL\obj\Release\net8.0\win-x64\BAL.dll
+D:\Development\Projects\LNCT\LNCT\BAL\obj\Release\net8.0\win-x64\refint\BAL.dll
+D:\Development\Projects\LNCT\LNCT\BAL\obj\Release\net8.0\win-x64\BAL.pdb
+D:\Development\Projects\LNCT\LNCT\BAL\obj\Release\net8.0\win-x64\ref\BAL.dll
