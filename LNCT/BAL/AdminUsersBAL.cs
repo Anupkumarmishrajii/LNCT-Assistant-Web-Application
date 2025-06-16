@@ -23,6 +23,10 @@ namespace BAL
         {
             return await DALFactory.Instance.AdminUsersDAL.GetPasswordByEmail(email);
         }
+        public async Task<AdminUsersDTO> GetPasswordByEmail2(string email)
+        {
+            return await DALFactory.Instance.AdminUsersDAL.GetPasswordByEmail(email);
+        }
 
 
         /// <summary>
