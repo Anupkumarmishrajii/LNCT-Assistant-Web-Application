@@ -7515,11 +7515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Development\\Projects\\LNCT\\LNCT\\DAL\\DAL.csproj",
+      "projectUniqueName": "D:\\Development\\Projects\\LNCT - Copy\\LNCT\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\Development\\Projects\\LNCT\\LNCT\\DAL\\DAL.csproj",
+      "projectPath": "D:\\Development\\Projects\\LNCT - Copy\\LNCT\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "D:\\Development\\Projects\\LNCT\\LNCT\\DAL\\obj\\",
+      "outputPath": "D:\\Development\\Projects\\LNCT - Copy\\LNCT\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7540,8 +7540,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Development\\Projects\\LNCT\\LNCT\\DTO\\DTO.csproj": {
-              "projectPath": "D:\\Development\\Projects\\LNCT\\LNCT\\DTO\\DTO.csproj"
+            "D:\\Development\\Projects\\LNCT - Copy\\LNCT\\DTO\\DTO.csproj": {
+              "projectPath": "D:\\Development\\Projects\\LNCT - Copy\\LNCT\\DTO\\DTO.csproj"
             }
           }
         }

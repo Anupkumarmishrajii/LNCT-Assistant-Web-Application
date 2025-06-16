@@ -11,6 +11,8 @@ namespace BAL
     public sealed class AdminUsersBAL
     {
         internal AdminUsersBAL() { }
+        // hii this is for push code testing..
+
 
         /// <summary>
         /// GetPasswordByEmail
@@ -18,6 +20,10 @@ namespace BAL
         /// <param name="email"></param>
         /// <returns>GetPasswordByEmail</returns>
         public async Task<AdminUsersDTO> GetPasswordByEmail(string email)
+        {
+            return await DALFactory.Instance.AdminUsersDAL.GetPasswordByEmail(email);
+        }
+        public async Task<AdminUsersDTO> GetPasswordByEmail2(string email)
         {
             return await DALFactory.Instance.AdminUsersDAL.GetPasswordByEmail(email);
         }
